@@ -30,6 +30,8 @@ $ ssh-add ~/.ssh/KEYNAME
 
 Add the new private key to the SSH agent.
 
+**Important** - Add the key from the repo's main directory!
+
 ## Adding an SSH key to a GitHub repo
 
 ```
