@@ -29,3 +29,13 @@ $ ssh-add ~/.ssh/KEYNAME
 ```
 
 Add the new private key to the SSH agent.
+
+## Adding an SSH key to a GitHub repo
+
+```
+$ clip < ~/.ssh/KEYNAME.pub
+```
+
+Copy the public key to the clipboard.
+
+In a GitHub repo, click on Settings > Deploy Keys and add a new key. Give it a name, like "Desktop".
