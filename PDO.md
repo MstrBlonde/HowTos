@@ -3,9 +3,9 @@
 ## Create variables for sql
 
 ```php
-$host="192.168.0.122"; //"localhost";
+$host="localhost";
 $user="mhs_user";
-$password="3vaNcpAMrsOOsf4I";
+$password="";
 $dbname="users";
 ```
 
